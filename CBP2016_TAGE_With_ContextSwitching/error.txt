@@ -1,0 +1,48 @@
+In file included from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/is_dereferenceable.hpp:12:0,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/resolve.hpp:26,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/push.hpp:24,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:31,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream_buffer.hpp:22,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream.hpp:21,
+                 from bt9_reader.h:30,
+                 from main.cc:15:
+/u/s/p/spati/CS752/boost_lib/include/boost/type_traits/detail/bool_trait_def.hpp:18:79: note: #pragma message: NOTE: Use of this header (bool_trait_def.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (bool_trait_def.hpp) is deprecated")
+                                                                               ^
+In file included from /u/s/p/spati/CS752/boost_lib/include/boost/type_traits/detail/bool_trait_def.hpp:21:0,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/is_dereferenceable.hpp:12,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/resolve.hpp:26,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/push.hpp:24,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:31,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream_buffer.hpp:22,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream.hpp:21,
+                 from bt9_reader.h:30,
+                 from main.cc:15:
+/u/s/p/spati/CS752/boost_lib/include/boost/type_traits/detail/template_arity_spec.hpp:13:84: note: #pragma message: NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (template_arity_spec.hpp) is deprecated")
+                                                                                    ^
+In file included from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/is_dereferenceable.hpp:13:0,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/resolve.hpp:26,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/push.hpp:24,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:31,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream_buffer.hpp:22,
+                 from /u/s/p/spati/CS752/boost_lib/include/boost/iostreams/stream.hpp:21,
+                 from bt9_reader.h:30,
+                 from main.cc:15:
+/u/s/p/spati/CS752/boost_lib/include/boost/type_traits/detail/template_arity_spec.hpp:13:84: note: #pragma message: NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+ # pragma message("NOTE: Use of this header (template_arity_spec.hpp) is deprecated")
+                                                                                    ^
+main.cc: In function ‘void CheckHeartBeat(long long unsigned int, long long unsigned int)’:
+main.cc:42:10: warning: unused variable ‘lineInterval’ [-Wunused-variable]
+   UINT64 lineInterval=30*dotInterval;
+          ^
+main.cc: In function ‘int main(int, char**)’:
+main.cc:313:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if(branch_instruction_counter[j] < min){
+                                       ^
+main.cc:281:12: warning: unused variable ‘current_instruction_counter’ [-Wunused-variable]
+     UINT64 current_instruction_counter[20] = {0};
+            ^
+main.cc:318:9: warning: unused variable ‘iterations’ [-Wunused-variable]
+     int iterations=min / 10000;
+         ^
